@@ -1,0 +1,88 @@
+.detalle-cotizacion {
+  padding: 3rem 1rem;
+  background-color: #0f1429;
+  background-image: url('https://media.lacapital.com.ar/p/e2e86cef90719bf300e8af9181634e78/adjuntos/203/imagenes/101/187/0101187722/1200x675/smart/casino-onlinepng.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.landing {
+  background-image: url('https://media.lacapital.com.ar/p/e2e86cef90719bf300e8af9181634e78/adjuntos/203/imagenes/101/187/0101187722/1200x675/smart/casino-onlinepng.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-header {
+  margin-top:70px;
+  color:white
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #c69e5d;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #c69e5d;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-social a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a:hover {
+  transform: scale(1.1);
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 3px #000);
+}

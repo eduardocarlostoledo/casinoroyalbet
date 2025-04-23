@@ -1,0 +1,60 @@
+.gracias-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    background-color: #101629;
+  }
+  
+  .gracias-card {
+    background-color: #1a1f3c;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    color: #e2e2ee;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .checkmark {
+    width: 72px;
+    height: 72px;
+    stroke: #c69e5d;
+    stroke-width: 4;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-bottom: 1rem;
+  }
+  
+  .checkmark-circle-bg {
+    fill: none;
+    stroke: #c69e5d;
+    stroke-width: 2;
+  }
+  
+  .gracias-title {
+    font-size: 1.8rem;
+    color: #c69e5d;
+    margin-bottom: 1rem;
+  }
+  
+  .gracias-desc {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gracias-btn {
+    background-color: #c69e5d;
+    color: #101629;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gracias-btn:hover {
+    background-color: #b6894b;
+  }

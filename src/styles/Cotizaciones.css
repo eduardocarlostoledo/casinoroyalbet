@@ -1,0 +1,68 @@
+.cotizaciones {
+    padding: 3rem 1rem;
+    background-color: #0f142912;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cotizaciones h2 {
+    font-size: 2rem;
+    color: #c69e5d;
+    margin-bottom: 2rem;
+  }
+  
+  .cotizaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .plan-card {
+    background-color: #1a1f3c;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .plan-card h3 {
+    color: #e2e2ee;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-price {
+    font-size: 1.5rem;
+    color: #c69e5d;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .plan-card li {
+    margin-bottom: 0.5rem;
+    color: #ccc;
+  }
+  
+  .plan-button {
+    background-color: #c69e5d;
+    color: #101629;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan-button:hover {
+    background-color: #b6894b;
+  }
+  
